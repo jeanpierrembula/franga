@@ -1,6 +1,15 @@
-# .gitignore
+# Python
 __pycache__/
 *.pyc
-venv/
-franga/          # Ignorer le dossier de l'environnement virtuel (s'il se trouve ici)
-transactions.db  # Fichier de base de données SQLite
+*.pyo
+*.pyd
+franga/  # ou franga/ (si l'environnement virtuel est ici)
+*.sqlite
+transactions.db
+
+# OS générés
+.DS_Store
+
+# Logs et temp
+*.log
+*.tmp
